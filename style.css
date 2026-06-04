@@ -60,14 +60,14 @@ main { min-height: 100vh; padding-top: 70px; animation: fadeIn 0.4s ease forward
 /* ─── HERO VIEW ─── */
 .hero-welcome { padding: 8rem 1rem 6rem; text-align: left; border-bottom: 1px solid var(--border-color); }
 .hero-title { font-size: clamp(2.5rem, 5vw, 4rem); color: var(--text-primary); margin-bottom: 1.5rem; font-weight: 300; line-height: 1.1; letter-spacing: -0.02em; }
-.hero-acronym { font-family: 'DM Mono', monospace; font-size: 1rem; color: var(--accent-color); margin-bottom: 1rem; letter-spacing: 0.2em; font-weight: 600; }
-.hero-subtitle { font-size: 1.2rem; color: var(--text-secondary); font-weight: 400; max-width: 600px; }
+.hero-acronym { font-family: 'DM Mono', monospace; font-size: 1rem; color: var(--accent-color); margin-bottom: 1rem; letter-spacing: 0.2em; font-weight: 600; margin-left: 0.50rem;}
+.hero-subtitle { font-size: 1.2rem; color: var(--text-secondary); font-weight: 400; max-width: 600px; margin-left: 2px;}
 
 /* ─── INDEX SPECIFIC OVERRIDES ─── */
 .page-index { display: flex; flex-direction: column; height: 100vh; min-height: 100vh; overflow: hidden; }
 .page-index main { flex: 1; min-height: auto; display: flex; align-items: center; padding-top: 70px; }
 .page-index .hero-welcome { padding: 2rem 1rem; border-bottom: none; }
-.hero-quote { margin-bottom: 0; font-size: 1.3rem; line-height: 1.5; font-weight: 300; color: var(--text-primary); }
+.hero-quote { margin-bottom: 0; font-size: 1.3rem; line-height: 1.5; font-weight: 300; color: var(--text-primary); text-indent: -0.45em; }
 
 /* ─── RESEARCH VIEW ─── */
 .vision-block { margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid var(--border-color); }
@@ -118,6 +118,7 @@ main { min-height: 100vh; padding-top: 70px; animation: fadeIn 0.4s ease forward
 .contact-clean h2 { font-size: 2rem; margin-bottom: 1rem; color: var(--text-primary); font-weight: 600; }
 .contact-clean p { font-size: 1.1rem; color: var(--text-secondary); margin-bottom: 0.5rem; }
 .email-highlight { font-size: 1.2rem; color: var(--text-primary); font-weight: 600; margin-top: 1.5rem; display: inline-block; border-bottom: 2px solid var(--accent-color); }
+.opportunities-heading { color: var(--accent-color); margin-bottom: 1rem; }
 .opportunities-text { font-size: 1.15rem; line-height: 1.7; color: var(--text-primary); }
 .opportunities-text a { color: var(--accent-color); font-weight: 600; text-decoration: underline; }
 
